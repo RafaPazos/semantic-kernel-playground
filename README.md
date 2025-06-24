@@ -17,20 +17,20 @@ This repository serves as a playground for exploring Semantic Kernel through var
 2. create an environment:
 
 ```bash
-// Create a virtual environment named 'agentic'
-python -m venv .agentic
+// Create a virtual environment named 'skplayground'
+python -m venv .skplayground
 
 // On Windows, activate the environment
-.agentic\Scripts\activate
+.skplayground\Scripts\activate
 
 // On macOS/Linux, activate the environment
-source .agentic/bin/activate
+source .skplayground/bin/activate
 ```
 
 3. Install the required dependencies:
 
 ```bash
-   pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 4. Follow the exercises in the `src` folder to start learning Semantic Kernel.
